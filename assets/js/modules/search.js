@@ -20,4 +20,3 @@ export async function fetchAndFilterProducts(searchTerm) {
       container.appendChild(card);
     });
   }
-  
