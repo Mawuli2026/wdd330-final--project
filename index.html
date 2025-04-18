@@ -1,19 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="Discover your signature scent at Perfume Shop. Shop elegant fragrances and explore scent recommendations." />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Discover your signature scent at Perfume Shop. Shop elegant fragrances and explore scent recommendations.">
   <title>Perfume Shop</title>
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&family=Lato&display=swap" rel="stylesheet">
-
-  <!-- Main Styles -->
-  <link rel="stylesheet" href="assets/css/styles.css" />
+  <link rel="stylesheet" href="assets/css/styles.css">
   <script type="module" src="js/main.js"></script>
 </head>
 <body>
 
-  <!-- ✅ Navbar -->
+  <!--  Navbar -->
   <header class="navbar">
     <div class="container">
       <h1 class="logo">Perfume Shop</h1>
@@ -28,7 +26,7 @@
     </div>
   </header>
 
-  <!-- ✅ Hero Section -->
+  <!-- Hero Section -->
   <section class="hero">
     <div class="container">
       <h2 class="hero-title">Discover Your Signature Scent</h2>
@@ -37,38 +35,37 @@
     </div>
   </section>
 
-  <!-- ✅ Featured Products -->
+  <!--  Featured Products -->
   <section class="featured-products">
     <div class="container">
       <h3 class="section-title">Featured Perfumes</h3>
+
+      <!--  Search Bar -->
+      <input type="text" id="search-input" placeholder="Search perfumes..." class="search-input">
+
+      <!-- Category Filter Buttons -->
+      <div class="category-filters">
+        <button data-category="men's clothing" class="btn-primary">Men</button>
+        <button data-category="women's clothing" class="btn-primary">Women</button>
+        <button data-category="jewelery" class="btn-primary">Jewelry</button>
+      </div>
+
+      <!--  Product Grid -->
       <div id="featured-products" class="product-grid">
         <!-- JS will insert product cards here -->
       </div>
     </div>
-     <!-- ✅ Search Bar -->
-     <input type="text" id="search-input" placeholder="Search perfumes..." class="search-input" />
   </section>
- <!-- ✅ Category Filter Buttons -->
- <div class="category-filters">
-  <button data-category="men's clothing" class="btn-primary">Men</button>
-  <button data-category="women's clothing" class="btn-primary">Women</button>
-  <button data-category="jewelery" class="btn-primary">Jewelry</button>
-</div>
 
-<!-- ✅ Product Grid (populated via JS) -->
-<div id="featured-products" class="product-grid">
-  <!-- JS will insert product cards here -->
-</div>
-</div>
-</section>
-  <!-- ✅ Footer -->
+  <!--  Footer -->
   <footer class="footer">
     <div class="container">
-      <p>&copy; 2025 Perfume Shop. </p>
+      <p>&copy; 2025 Perfume Shop. All rights reserved.</p>
     </div>
   </footer>
 
-  <!-- ✅ JavaScript -->
-  <script type="module" src="main.js"></script>
+  <!--  JavaScript -->
+  <script type="module" src="js/main.js"></script>
+
 </body>
 </html>
