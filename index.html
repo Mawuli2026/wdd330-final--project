@@ -9,7 +9,7 @@
 
   <!-- Main Styles -->
   <link rel="stylesheet" href="assets/css/styles.css" />
-  <script type="module" src="main.js"></script>
+  <script type="module" src="js/main.js"></script>
 </head>
 <body>
 
@@ -45,8 +45,22 @@
         <!-- JS will insert product cards here -->
       </div>
     </div>
+     <!-- ✅ Search Bar -->
+     <input type="text" id="search-input" placeholder="Search perfumes..." class="search-input" />
   </section>
+ <!-- ✅ Category Filter Buttons -->
+ <div class="category-filters">
+  <button data-category="men's clothing" class="btn-primary">Men</button>
+  <button data-category="women's clothing" class="btn-primary">Women</button>
+  <button data-category="jewelery" class="btn-primary">Jewelry</button>
+</div>
 
+<!-- ✅ Product Grid (populated via JS) -->
+<div id="featured-products" class="product-grid">
+  <!-- JS will insert product cards here -->
+</div>
+</div>
+</section>
   <!-- ✅ Footer -->
   <footer class="footer">
     <div class="container">
